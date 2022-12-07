@@ -69,4 +69,6 @@ view: v_google_consumption {
     type: count
     drill_fields: [project_ancestors_display_name, credits_name]
   }
+
+
 }

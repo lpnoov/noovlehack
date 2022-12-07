@@ -1,4 +1,4 @@
-connection: "noovle--big--data--analytics"
+connection: "noovle_private_cloud_bi_hackathon_2022_output"
 
 # include all the views
 include: "/views/**/*.view"

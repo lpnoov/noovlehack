@@ -1,4 +1,19 @@
 view: v_google_consumption {
+
+  #new code start
+
+  measure: total_cost {
+
+    type: sum
+    sql: ${cost} ;;
+
+  }
+
+
+  # new code end
+
+
+
   sql_table_name: `CLOUD_BI_HACKATHON_2022_OUTPUT.V_GOOGLE_CONSUMPTION`
     ;;
 

@@ -10,6 +10,9 @@ datagroup: noovle-big-data-analytics_default_datagroup {
 
 persist_with: noovle-big-data-analytics_default_datagroup
 
+explore: test_connection_looker {}
+
+
 explore: v_google_consumption {
   join: v_google_consumption__labels {
     view_label: "V Google Consumption: Labels"
